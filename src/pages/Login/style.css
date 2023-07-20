@@ -1,0 +1,133 @@
+.main-login{
+    display: flex;
+    justify-content: center;
+    gap: 91px;
+}
+
+.login-aside{
+    margin-top: 327px;
+}
+
+.login-aside__title{
+    width: 614px;
+    margin-bottom: 33px;
+
+    font-size: 52px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+
+    color: #FFF;
+}
+
+.login-aside__title-highlight{
+    color: #7978D9;
+}
+
+.login-aside__text{
+    width: 600px;
+    margin-bottom: 43px;
+
+    font-size: 28px;
+    font-family: "Rubik", sans-serif;
+
+    color: #FFF;
+}
+
+.login-aside__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 284px;
+    height: 52px;
+    border: none;
+    border-radius: 5px;
+
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+
+    color: #FFF;
+    background-color: #7978D9;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 513px;
+    height: 535px;
+    margin-top: 194px;
+    margin-bottom: 295px;
+
+    background-color: #FFF;
+}
+
+.login-form__title{
+    margin-top: 60px;
+    margin-bottom: 48px;
+
+    font-size: 28px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+
+    color: #7978D9;
+}
+
+.login-form__label{
+    align-self: flex-start;
+    margin-left: 32px;
+    margin-bottom: 8px;
+
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+
+    color: #484848;
+}
+
+.login-form__input-email{
+    width: 449px;
+    height: 63px;
+    margin-bottom: 31px;
+    border: 1px solid #555;
+    border-radius: 5px;
+
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+    padding-left: 10px;
+
+    color: #484848;
+}
+
+.login-form__input-password{
+    width: 449px;
+    height: 63px;
+    margin-bottom: 73px;
+    padding-left: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+    
+    color: #484848;
+}
+
+.login-form__button{
+    width: 449px;
+    height: 52px;
+    border: none;
+    border-radius: 5px;
+
+    text-align: center;
+    font-size: 14px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    
+    background-color: #7978D9;
+    color: #FFF;
+}
